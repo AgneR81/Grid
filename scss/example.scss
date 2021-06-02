@@ -1,0 +1,50 @@
+// .grid-container {
+//     height: 100vh;
+//     border: 10px solid lightgreen;
+//     display: grid;
+//     grid-template-columns: repeat(3, 1fr);
+//     grid-template-rows: 200px 200px;
+//     // grid-row-gap: 20px;
+//     // grid-column-gap: 20px;
+//     grid-gap: 10px 20px;  // row parameter column parameter
+//     // grid-auto-rows: 200px;
+//     // justify-items: center;   islygiuota within the item box
+//     // align-items: center;
+//     // justify-content: center;   // islygiuota container atzvilgiu pagal X
+//     // align-content: center;     // iscentruota container atzvilgiu pagal X,Y
+//     .grid-item {
+//         background-color: #ccc;
+//         border: 4px solid coral;
+//         padding: 20px;
+
+//     }
+//     .item-1 {
+//         // grid-column-start: 1;
+//         // grid-column-end: 3;
+//         grid-column: 1 / 3;
+//     }
+//     .item-2 {
+//         // grid-row: 1 / 3;
+//         grid-area: 1 / 3 / 3 / 4;  //row start-/-column start-/-row end-/-column end
+//         // z-index: 1; //overlaping column 2 onto column 4
+//         // grid-row-end: 3;
+//         // grid-column-start: 3;
+//         // grid-column-end: 4;
+//         // grid-column: 3 /4;
+//     }
+//     .item-3 {
+//         // grid-row: 2 / 4;  taip pat parasyti su SPAN galima
+//         // grid-row: 2 / span 3;
+//         // grid-column: 1 / span 2;
+//         grid-area: 2 / 1 / span 3 / span 2;
+//     }
+//     .item-4 {
+//         // grid-area: 2 / 2 / span 2 / span 2;
+        
+//     }
+//     .item-5 {
+//         // justify-self: center; // padaro column
+//         // align-self: center;
+//         place-self: start center; //first parameter is align(and is vertical)
+//     }
+// }
